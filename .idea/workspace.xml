@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d69d4dd-0875-45ac-ab1e-058fe5337b80" name="Default Changelist" comment="" />
+    <list default="true" id="7d69d4dd-0875-45ac-ab1e-058fe5337b80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Hotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hotel/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/meta" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Hotel" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -31,6 +33,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -218,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628852848609</updated>
-      <workItem from="1628852849887" duration="5126000" />
+      <workItem from="1628852849887" duration="5499000" />
     </task>
     <servers />
   </component>
@@ -235,5 +238,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/meta" />
+    </ignored-roots>
   </component>
 </project>
