@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d69d4dd-0875-45ac-ab1e-058fe5337b80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Hotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hotel/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d69d4dd-0875-45ac-ab1e-058fe5337b80" name="Default Changelist" comment="a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,12 +219,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628852848609</updated>
-      <workItem from="1628852849887" duration="5499000" />
+      <workItem from="1628852849887" duration="5863000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1628858382386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628858382386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -243,5 +259,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/meta" />
     </ignored-roots>
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
