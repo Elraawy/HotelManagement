@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+       <!--Cover-->
+<div class="slideshow-container"style="padding-top: 1rem" >
+    <div class="mySlides fade" style="background-image: url('https://www.travelplusstyle.com/wp-content/gallery/the-mira-hong-kong/tmhk_green-city-room_res.jpg');-->
+    <!--  background-size: cover; height: 600px; padding-top:80px;"></div>
+    <div class="mySlides fade" style="background-image: url('https://www.cthawards.com/wp-content/uploads/2013/10/level-4-diploma-hospitality-management.jpg');-->
+    <!--  background-size: cover; height: 600px; padding-top:80px;"></div>
+    <div class="mySlides fade" style="background-image: url('https://images.unsplash.com/photo-1598902590916-fd8d890ff798?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');-->
+    <!--  background-size: cover; height: 600px; padding-top:80px;"></div>
+</div>
+<br>
+
+<div id="offer" style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+       <!--Offers_Page-->
+       <div class="container" id="offer" style="color: black">
+         <h1>Our Exclusive Offers</h1>
+            <section class="space-v">
+                <div class="contain">
+                    {% for offer in offers %}
+
+                      {% if forloop.counter|divisibleby:2 %}
+
+                         <div class="row mar-b">
+                             <div class="col-md-6" >
+                                 <img src="{{ offer.src }}" width="550" height ="400" class="img-fluid" alt="Stay Longer Save More!">
+                             </div>
+                             <div class="col-md-6">
+                                 <div class="Offer-txt terms" style="margin-bottom:10px;max-width: 500px">
+                                     <h3>{{ offer.title}}</h3>
+                                     <p> {{ offer.desc }}</p>
+                                     <p><strong>Terms and Conditions Apply:</strong></p>
+                                     <ul>
+                                          <li>{{ offer.terms1 }}</li>
+                                          <li>{{ offer.terms2 }}</li>
+                                          <li>{{ offer.terms3 }}</li>
+                                          <li>{{ offer.terms4 }}</li>
+
+                                     </ul>
+                                     <button type="submit" class="book-btn btttn">Get Offer</button>
+                                 </div>
+                             </div>
+                         </div>
+                        {% else %}
+                         <div class="row mar-b">
+                             <div class="col-md-6">
+                                 <div class="Offer-txt terms" style="margin-bottom:10px;max-width: 500px">
+                                     <h3>{{ offer.title}}</h3>
+                                     <p> {{ offer.desc }}</p>
+                                     <p><strong>Terms and Conditions Apply:</strong></p>
+                                     <ul>
+                                          <li>{{ offer.terms1 }}</li>
+                                          <li>{{ offer.terms2 }}</li>
+                                          <li>{{ offer.terms3 }}</li>
+                                          <li>{{ offer.terms4 }}</li>
+
+                                     </ul>
+                                     <button type="submit" class="book-btn btttn">Get Offer</button>
+                                 </div>
+                             </div>
+                             <div class="col-md-6">
+                                 <img src="{{ offer.src }}" width="550" height ="400" class="img-fluid" alt="Stay Longer Save More!">
+                             </div>
+                         </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+             </div>
+         </section>
+       </div>
+
+{% endblock %}
