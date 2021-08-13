@@ -41,11 +41,11 @@ Go to Project Directory cd meta :
 
 Create a Virtual Environment :
 ```sh 
- python -m venv env
+ python -m venv venv
 ```
 Activate Virtual Environment 
 ```sh
- . \env\Scripts\activate
+ . \venv\Scripts\activate
 ```
 Install Requirment Packages
 ```sh
@@ -69,11 +69,11 @@ Finally Run the Projects :
 
 Create a Virtual Environment :
 ```sh 
- python3 -m venv env
+ python3 -m venv venv
 ```
 Activate Virtual Environment 
 ```sh
- source mypython/bin/activate
+ source venv/bin/activate
 ```
 Install Requirment Packages
 ```sh
