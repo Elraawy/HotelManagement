@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-so+8rahw&ypoc@0$3dw)6@typ8&^5-3$ngn_!$3@+av#mise2%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -47,7 +47,6 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-     'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
