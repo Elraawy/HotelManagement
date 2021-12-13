@@ -30,12 +30,12 @@ How to Setup in Windows/MAC/Linux:
 Clone this Project :
 
 ```sh
-git clone https://github.com/AboElmagd01/meta.git
+git clone https://github.com/AboElmagd01/HotelManagement.git
 ```
 
-Go to Project Directory cd meta :
+Go to Project Directory cd HotelManagement  :
 ```sh
- cd meta
+ cd HotelManagement
 ```
 ## Windows Installation:
 
